@@ -1,5 +1,9 @@
 package org.sourceit.lection1;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class Main {
 
     String t = new String("dff");
