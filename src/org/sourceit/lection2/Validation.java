@@ -57,7 +57,7 @@ public class Validation {
 
     /**
      * Считает количество цифр в числе.
-     * Пример:
+     * Пример:11
      * countDigits(34) -> 2
      * countDigits(1234) -> 4
      * countDigits(0) -> 1
@@ -204,6 +204,11 @@ public class Validation {
      * @param args
      */
     public static void main(String[] args) {
+
+        long[] t = new long[]{1, 4, 56, 67};
+
+        System.out.println(t.toString());
+
         test1();
         test2();
         test3();
