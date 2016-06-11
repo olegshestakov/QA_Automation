@@ -1,6 +1,7 @@
 package org.sourceit.lection3;
 
-import sun.security.provider.SHA;
+import org.sourceit.lection3.Incapsulation;
+import org.sourceit.lection3.InnerInFile;
 
 public class Test {
 
