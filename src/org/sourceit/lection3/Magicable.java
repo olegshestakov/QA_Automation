@@ -49,4 +49,8 @@ enum Season {
 
 enum Gender {
     M, F;
+    @Override
+    public String toString() {
+        return this.name().equals("M") ? "male" : "female";
+    }
 }
