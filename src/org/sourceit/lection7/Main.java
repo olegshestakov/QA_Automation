@@ -1,6 +1,7 @@
 package org.sourceit.lection7;
 
 import java.io.*;
+import java.util.Arrays;
 
 // write sample file
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
         bufferedWriter(file);
         System.out.println("3. " + bufferedReaderFromFile(file));
 
+//        Arrays.sort
         try {
             RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
             randomAccessFile.seek(10);
